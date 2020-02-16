@@ -1,0 +1,83 @@
+
+.popular-products {  
+  padding-top: 70px;
+  padding-bottom: 50px;
+  
+  background-color: #f2f2f2;
+}
+
+.popular-products__container {
+  position: relative;
+}
+
+.popular-products__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.popular-products__item {
+  position: relative;
+  float: left;
+  width: 262px;
+  margin-right: 48px;
+  padding: 15px 22px;
+  padding-top: 221px;
+
+  border: 1px solid #d8d8d8;
+}
+
+.popular-products__item:last-child {
+  margin-right: 0;
+}
+
+.popular-products__item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 306px;
+  height: 206px;
+}
+
+.popular-products__item h3 {
+  float: left;
+  max-width: 205px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.popular-products__price {
+  float: right;
+  max-width: 55px;
+  margin-bottom: 20px;
+}
+
+.popular-products__info-button {
+  float: left;
+  clear: left;
+}
+
+.popular-products__buy-button {
+  float: right;
+}
+
+.popular-products__info-button,
+.popular-products__buy-button {
+  width: 101px;
+  color: #ffffff;
+  background-color: #a38b70;
+}
+
+.popular-products__info-button:hover,
+.popular-products__buy-button:hover {
+  color: #ffffff;
+  
+  background-color: #8d745a;
+}
+
+.popular-products__info-button:active,
+.popular-products__buy-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}

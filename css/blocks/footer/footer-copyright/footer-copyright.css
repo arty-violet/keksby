@@ -1,0 +1,33 @@
+
+.footer-copyright {
+  float: right;
+  width: 236px;
+  margin-top: 17px;
+  text-align: right;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer-copyright__heart {
+  display: inline-block;
+  width: 27px;
+  height: 24px;
+  font-size: 0;
+  vertical-align: middle;
+  background-image: url("../../../../img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: -5px -419px;
+}
+
+.footer-copyright a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-copyright a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright a:active {
+  color: rgba(255, 255, 255, 0.3);
+}

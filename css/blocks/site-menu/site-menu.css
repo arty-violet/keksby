@@ -1,0 +1,33 @@
+
+.site-menu__list {
+  float: left;
+  width: 520px;
+  margin: 0;
+  margin-top: 18px;
+  margin-left: 125px;
+  padding: 0;
+  list-style: none;
+}
+
+.site-menu__list li {
+  float: left;
+  margin-right: 50px;
+  text-transform: uppercase;
+}
+
+.site-menu__list li:last-child {
+  margin-right: 0;
+}
+
+.site-menu__list a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-menu__list a:hover {
+  text-decoration: underline;
+}
+
+.site-menu__list a:active {
+  color: rgba(255, 255, 255, 0.3);
+}

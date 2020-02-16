@@ -1,0 +1,23 @@
+
+@import url(feedback-form/feedback-form.css);
+
+
+.feedback {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.feedback__container {
+  position: relative;
+}
+
+.feedback__title {
+  max-width: 500px;
+}
+
+.feedback__tip {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 500px;
+}

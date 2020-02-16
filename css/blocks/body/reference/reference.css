@@ -1,0 +1,86 @@
+
+.reference {
+  padding-top: 70px;
+  padding-bottom: 90px;
+  background-color: #f2f2f2;
+}
+
+.reference .container {
+  position: relative;
+}
+
+.reference__button {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+.reference dl {
+  width: 830px;
+  margin: 0;
+  padding: 0;
+}
+
+.reference dt {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.reference dd {
+  position: relative;
+  min-height: 100px;
+  margin: 0;
+  padding-left: 130px;
+}
+
+.reference dd img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.reference dd p {
+  margin: 0;
+}
+
+.reference__container:first-child {
+  margin-bottom: 70px;
+}
+
+.reference__title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.reference__source {
+  font-weight: normal;
+  font-size: 16px;
+  color: #666666;
+  font-style: italic;
+}
+
+.reference__source a {
+  position: relative;
+  color: #a38b70;
+}
+
+.reference__source a:hover {
+  color: #8d745a;
+}
+
+.reference__source a:active {
+  color: rgba(141, 116, 90, 0.3);
+}
+
+.reference__source a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 8px;
+  height: 8px;
+  background: url("../../../../img/sprite.png") no-repeat -5px -210px;
+}

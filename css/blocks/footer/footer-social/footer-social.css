@@ -1,0 +1,47 @@
+
+.footer-social {
+  float: left;
+  width: 490px;
+  font-size: 0;
+}
+
+.footer-social b {
+  margin-right: 40px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Georgia", serif;
+  color: #a38b70;
+}
+
+.footer-social__button {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  vertical-align: middle;
+  color: #ffffff;
+  background-image: url("../../../../img/sprite.png");
+  background-repeat: no-repeat;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-social__button:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-social__button:active {
+  border-color: #ffffff;
+  opacity: 0.1;
+}
+
+.footer-social__button--vk {
+  background-position: 16px -238px;
+}
+
+.footer-social__button--fb {
+  background-position: 19px -297px;
+}
+
+.footer-social__button--in {
+  background-position: 13px -358px;
+}

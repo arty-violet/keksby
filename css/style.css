@@ -1,0 +1,41 @@
+
+@import url(blocks/button/button.css);
+@import url(blocks/clearfix/clearfix.css);
+@import url(blocks/logo/logo.css);
+@import url(blocks/site-menu/site-menu.css);
+@import url(blocks/header/header.css);
+@import url(blocks/body/features/features.css);
+@import url(blocks/body/reference/reference.css);
+@import url(blocks/body/reviews/reviews.css);
+@import url(blocks/body/popular-products/popular-products.css);
+@import url(blocks/body/price-list/price-list.css);
+@import url(blocks/body/feedback/feedback.css);
+@import url(blocks/footer/footer.css);
+
+
+body {
+  min-width: 1040px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Arial", sans-serif;
+  color: #404040;
+  background-color: white;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin: 0;
+  margin-right: 180px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  font-family: "Georgia", serif;
+  color: #a38b70;
+}
