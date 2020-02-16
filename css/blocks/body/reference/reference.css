@@ -74,8 +74,6 @@
 .reference__source a:hover,
 .reference__source a:focus {
   color: #8d745a;
-  
-  outline: none;
 }
 
 .reference__source a:active {
