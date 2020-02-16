@@ -71,10 +71,13 @@
 }
 
 .popular-products__info-button:hover,
-.popular-products__buy-button:hover {
+.popular-products__buy-button:hover,
+.popular-products__info-button:focus,
+.popular-products__buy-button:focus {
   color: #ffffff;
   
   background-color: #8d745a;
+  outline: none;
 }
 
 .popular-products__info-button:active,

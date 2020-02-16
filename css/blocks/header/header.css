@@ -12,6 +12,10 @@
   background-size: cover;
 }
 
+.header__logo {
+  float: left;
+}
+
 .header__nav {
   margin-bottom: 125px;
 }

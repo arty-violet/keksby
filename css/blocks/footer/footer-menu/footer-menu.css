@@ -8,6 +8,7 @@
 .footer-menu h3 {
   margin: 0;
   margin-bottom: 20px;
+
   font-weight: bold;
   font-size: 24px;
   font-family: "Georgia", serif;
@@ -17,6 +18,7 @@
 .footer-menu ul {
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 
@@ -25,12 +27,15 @@
 }
 
 .footer-menu a {
-  color: #c3c3c3;
   text-decoration: none;
+  color: #c3c3c3;
 }
 
-.footer-menu a:hover {
+.footer-menu a:hover,
+.footer-menu a:focus {
   color: #ffffff;
+  
+  outline: none;
 }
 
 .footer-menu a:active {

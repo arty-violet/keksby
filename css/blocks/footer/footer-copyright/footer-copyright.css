@@ -3,31 +3,53 @@
   float: right;
   width: 236px;
   margin-top: 17px;
+
   text-align: right;
-  color: #ffffff;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .footer-copyright__heart {
   display: inline-block;
   width: 27px;
   height: 24px;
+
   font-size: 0;
   vertical-align: middle;
+
   background-image: url("../../../../img/sprite.png");
   background-repeat: no-repeat;
   background-position: -5px -419px;
 }
 
 .footer-copyright a {
-  color: #ffffff;
+  position: relative;
+
   text-decoration: none;
+  color: #ffffff;
 }
 
-.footer-copyright a:hover {
-  text-decoration: underline;
+.footer-copyright a:focus {
+  outline: none;
 }
 
 .footer-copyright a:active {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-copyright a::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+
+  width: 100%;
+  height: 2px;
+}
+
+.footer-copyright a:hover::after,
+.footer-copyright a:focus::after,
+.footer-copyright a:active::after {
+  background-color: #a38b71;
 }

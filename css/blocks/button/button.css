@@ -3,42 +3,54 @@
   display: inline-block;
   width: 146px;
   padding: 10px;
+
   font: inherit;
   vertical-align: top;
   text-align: center;
-  color: #a38b70;
   text-transform: uppercase;
   text-decoration: none;
   word-wrap: break-word;
+  color: #a38b70;
+  
   border: 2px solid #a38b70;
   border-radius: 2px;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   color: #8d745a;
+
   border-color: #8d745a;
+  outline: none;
 }
 
 .button:active {
   color: rgba(141, 116, 90, 0.3);
+
   border-color: #8d745a;
 }
 
 .button--quick-order {
   float: right;
   margin-top: 6px;
+
   color: #ffffff;
+
   border-color: #ffffff;
 }
 
-.button--quick-order:hover {
+.button--quick-order:hover,
+.button--quick-order:focus {
   color: #404040;
+
   background-color: #ffffff;
   border-color: #ffffff;
+  outline: none;
 }
 
 .button--quick-order:active {
   color: rgba(64, 64, 64, 0.3);
+
   background-color: #ffffff;
   border-color: #ffffff;
 }
